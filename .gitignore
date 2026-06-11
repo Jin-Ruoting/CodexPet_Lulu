@@ -1,0 +1,6 @@
+.DS_Store
+*.tmp
+*.log
+work/
+generated_images/
+__pycache__/

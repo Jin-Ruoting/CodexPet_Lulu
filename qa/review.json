@@ -1,0 +1,990 @@
+{
+  "ok": true,
+  "frames_root": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames",
+  "errors": [],
+  "warnings": [
+    "idle used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "waving used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "waiting used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "running used extraction method stable-slots; confirm motion playback remains stable and unclipped",
+    "review used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+  ],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "idle used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16828,
+          "bbox": [
+            33,
+            5,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 132
+        },
+        {
+          "index": 1,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16277,
+          "bbox": [
+            33,
+            6,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 133
+        },
+        {
+          "index": 2,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16060,
+          "bbox": [
+            33,
+            10,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 142
+        },
+        {
+          "index": 3,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15746,
+          "bbox": [
+            33,
+            12,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 142
+        },
+        {
+          "index": 4,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15933,
+          "bbox": [
+            33,
+            11,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 150
+        },
+        {
+          "index": 5,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15969,
+          "bbox": [
+            33,
+            11,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 135
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-right used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13921,
+          "bbox": [
+            39,
+            7,
+            151,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 267
+        },
+        {
+          "index": 1,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13820,
+          "bbox": [
+            39,
+            5,
+            152,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 225
+        },
+        {
+          "index": 2,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13945,
+          "bbox": [
+            39,
+            11,
+            152,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 251
+        },
+        {
+          "index": 3,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13888,
+          "bbox": [
+            38,
+            9,
+            152,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 240
+        },
+        {
+          "index": 4,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14211,
+          "bbox": [
+            37,
+            8,
+            154,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 214
+        },
+        {
+          "index": 5,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13880,
+          "bbox": [
+            38,
+            9,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 232
+        },
+        {
+          "index": 6,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13499,
+          "bbox": [
+            39,
+            11,
+            152,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 237
+        },
+        {
+          "index": 7,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13611,
+          "bbox": [
+            39,
+            11,
+            152,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 228
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running-left used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13918,
+          "bbox": [
+            39,
+            7,
+            150,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 247
+        },
+        {
+          "index": 1,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13820,
+          "bbox": [
+            39,
+            5,
+            152,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 225
+        },
+        {
+          "index": 2,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13945,
+          "bbox": [
+            39,
+            11,
+            152,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 251
+        },
+        {
+          "index": 3,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13879,
+          "bbox": [
+            38,
+            9,
+            152,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 240
+        },
+        {
+          "index": 4,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14211,
+          "bbox": [
+            37,
+            8,
+            154,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 214
+        },
+        {
+          "index": 5,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13880,
+          "bbox": [
+            38,
+            9,
+            153,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 232
+        },
+        {
+          "index": 6,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13468,
+          "bbox": [
+            41,
+            11,
+            150,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 222
+        },
+        {
+          "index": 7,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 13601,
+          "bbox": [
+            41,
+            11,
+            152,
+            201
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 224
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waving used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16860,
+          "bbox": [
+            31,
+            5,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 136
+        },
+        {
+          "index": 1,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17088,
+          "bbox": [
+            26,
+            5,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 143
+        },
+        {
+          "index": 2,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17233,
+          "bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 133
+        },
+        {
+          "index": 3,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16930,
+          "bbox": [
+            31,
+            5,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 119
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "jumping used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9053,
+          "bbox": [
+            47,
+            65,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 109
+        },
+        {
+          "index": 1,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10140,
+          "bbox": [
+            42,
+            29,
+            150,
+            177
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 134
+        },
+        {
+          "index": 2,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10065,
+          "bbox": [
+            42,
+            5,
+            150,
+            152
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 111
+        },
+        {
+          "index": 3,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 10045,
+          "bbox": [
+            42,
+            33,
+            150,
+            184
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 123
+        },
+        {
+          "index": 4,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 9361,
+          "bbox": [
+            47,
+            61,
+            145,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 88
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "failed used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16720,
+          "bbox": [
+            29,
+            5,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 266
+        },
+        {
+          "index": 1,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15814,
+          "bbox": [
+            28,
+            15,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 218
+        },
+        {
+          "index": 2,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14804,
+          "bbox": [
+            28,
+            28,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 250
+        },
+        {
+          "index": 3,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12999,
+          "bbox": [
+            33,
+            50,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 217
+        },
+        {
+          "index": 4,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14067,
+          "bbox": [
+            36,
+            29,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 252
+        },
+        {
+          "index": 5,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15771,
+          "bbox": [
+            34,
+            7,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 259
+        },
+        {
+          "index": 6,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15969,
+          "bbox": [
+            34,
+            6,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 253
+        },
+        {
+          "index": 7,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15507,
+          "bbox": [
+            31,
+            13,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 261
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "waiting used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16507,
+          "bbox": [
+            33,
+            5,
+            158,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 217
+        },
+        {
+          "index": 1,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16153,
+          "bbox": [
+            33,
+            5,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 209
+        },
+        {
+          "index": 2,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16783,
+          "bbox": [
+            33,
+            5,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 217
+        },
+        {
+          "index": 3,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16080,
+          "bbox": [
+            33,
+            5,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 227
+        },
+        {
+          "index": 4,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16707,
+          "bbox": [
+            33,
+            6,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 219
+        },
+        {
+          "index": 5,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15854,
+          "bbox": [
+            33,
+            7,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 218
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "running used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17103,
+          "bbox": [
+            32,
+            5,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 180
+        },
+        {
+          "index": 1,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16124,
+          "bbox": [
+            32,
+            16,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 167
+        },
+        {
+          "index": 2,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16892,
+          "bbox": [
+            32,
+            7,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 167
+        },
+        {
+          "index": 3,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15280,
+          "bbox": [
+            33,
+            27,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 155
+        },
+        {
+          "index": 4,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16735,
+          "bbox": [
+            32,
+            9,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 160
+        },
+        {
+          "index": 5,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16086,
+          "bbox": [
+            32,
+            15,
+            159,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 158
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "stable-slots",
+      "ok": true,
+      "errors": [],
+      "warnings": [
+        "review used extraction method stable-slots; confirm motion playback remains stable and unclipped"
+      ],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16509,
+          "bbox": [
+            31,
+            6,
+            161,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 187
+        },
+        {
+          "index": 1,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16498,
+          "bbox": [
+            31,
+            7,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 183
+        },
+        {
+          "index": 2,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16082,
+          "bbox": [
+            31,
+            10,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 193
+        },
+        {
+          "index": 3,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15923,
+          "bbox": [
+            31,
+            18,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 176
+        },
+        {
+          "index": 4,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15814,
+          "bbox": [
+            34,
+            10,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 172
+        },
+        {
+          "index": 5,
+          "file": "/Users/steven/Documents/Codex/2026-06-11/files-mentioned-by-the-user-img/work/lulu-pet-run/frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16037,
+          "bbox": [
+            32,
+            13,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 180
+        }
+      ]
+    }
+  ]
+}
