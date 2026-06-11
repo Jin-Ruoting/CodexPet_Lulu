@@ -1,0 +1,11 @@
+{
+  "input": "spritesheet.webp",
+  "output": "spritesheet.webp",
+  "size": [
+    1536,
+    1872
+  ],
+  "sharpness_laplacian_variance_before": 11071.05,
+  "sharpness_laplacian_variance_after": 22481.37,
+  "nontransparent_pixels": 799501
+}

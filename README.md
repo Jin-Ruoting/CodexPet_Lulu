@@ -54,6 +54,7 @@ lulu/
 |-- install.sh
 |-- qa/
 |   |-- contact-sheet.png
+|   |-- enhancement.json
 |   |-- review.json
 |   |-- validation.json
 |   `-- previews/
@@ -97,17 +98,21 @@ The spritesheet includes all nine Codex pet rows:
 
 ## QA and Validation
 
+The final atlas has been sharpened and saved as lossless WebP to reduce blur when Codex scales the pet on high-DPI displays. It still preserves the standard Codex atlas dimensions and frame layout.
+
 The final atlas passed the hatch-pet validation workflow:
 
 - Format: WebP RGBA
 - Size: `1536x1872`
 - Transparent RGB residue pixels: `0`
 - Frame inspection errors: none
+- Sharpness metric improved from `11071.05` to `22481.37`
 
 QA artifacts are included for review:
 
 - `qa/contact-sheet.png` shows every atlas row and frame.
 - `qa/previews/*.gif` provides lightweight motion previews for each state.
+- `qa/enhancement.json` records the clarity enhancement metrics.
 - `qa/validation.json` records atlas validation results.
 - `qa/review.json` records frame inspection results.
 
