@@ -7,6 +7,8 @@ Lulu is a Codex-compatible desktop pet generated from a cute capybara-style 3D t
 Clone this repository, then run:
 
 ```bash
+git clone https://github.com/Jin-Ruoting/CodexPet_Lulu.git
+cd CodexPet_Lulu
 ./install.sh
 ```
 
