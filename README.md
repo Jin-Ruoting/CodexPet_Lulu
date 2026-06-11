@@ -1,10 +1,18 @@
 # CodexPet_Lulu
 
-Lulu is a Codex-compatible desktop pet generated from a cute capybara-style 3D toy reference. The packaged pet keeps the round yellow body, navy side cap, tiny orange topper, and crossbody pouch, while avoiding readable brand text.
+A ready-to-install Lulu desktop pet for Codex.
 
-## Quick Install
+Lulu is a Codex-compatible animated pet packaged as a small repository that other users can clone and install directly. The pet is a round capybara-style 3D toy character with a navy side cap, tiny orange topper, soft yellow body, orange cheek muzzle, and a small crossbody pouch. The spritesheet avoids readable brand text or copied logo marks.
 
-Clone this repository, then run:
+![Lulu contact sheet](qa/contact-sheet.png)
+
+## Repository Description
+
+Codex-compatible Lulu desktop pet: a cute animated capybara with an install script, WebP spritesheet atlas, motion previews, and validation artifacts.
+
+## Quick Start
+
+Clone the repository and run the installer:
 
 ```bash
 git clone https://github.com/Jin-Ruoting/CodexPet_Lulu.git
@@ -12,51 +20,100 @@ cd CodexPet_Lulu
 ./install.sh
 ```
 
-The installer copies the pet package to:
+The installer copies the pet package into:
 
 ```text
 ${CODEX_HOME:-$HOME/.codex}/pets/lulu/
 ```
 
-After installation, restart Codex or refresh/select custom pets if your Codex build supports live pet discovery.
+Restart Codex after installation, or refresh/select custom pets if your Codex build supports live pet discovery.
 
-## Manual Install
+## Manual Installation
 
-You can also install without the script:
+If you prefer not to run the script, install the two required files manually:
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/pets/lulu"
 cp pet.json spritesheet.webp "${CODEX_HOME:-$HOME/.codex}/pets/lulu/"
 ```
 
-## Files
+The installed directory should contain:
 
-- `pet.json`: Codex pet manifest.
-- `spritesheet.webp`: final 1536x1872 RGBA pet atlas, 8 columns by 9 rows, 192x208 cells.
-- `qa/contact-sheet.png`: visual contact sheet for all animation rows.
-- `qa/previews/*.gif`: lightweight motion previews.
-- `qa/validation.json`: atlas validation output.
-- `qa/review.json`: frame inspection output.
+```text
+lulu/
+  pet.json
+  spritesheet.webp
+```
 
-## Validation
+## Package Contents
 
-The generated atlas passed the hatch-pet validation workflow:
+```text
+.
+|-- pet.json
+|-- spritesheet.webp
+|-- install.sh
+|-- qa/
+|   |-- contact-sheet.png
+|   |-- review.json
+|   |-- validation.json
+|   `-- previews/
+|       |-- idle.gif
+|       |-- running-right.gif
+|       |-- running-left.gif
+|       |-- waving.gif
+|       |-- jumping.gif
+|       |-- failed.gif
+|       |-- waiting.gif
+|       |-- running.gif
+|       `-- review.gif
+`-- README.md
+```
+
+## Codex Pet Format
+
+The package uses the standard Codex pet layout:
+
+- `pet.json` defines the pet id, display name, description, and spritesheet path.
+- `spritesheet.webp` is the final animated pet atlas.
+- The atlas is `1536x1872`, arranged as 8 columns by 9 rows.
+- Each frame cell is `192x208`.
+- Unused cells are transparent.
+
+## Animation States
+
+The spritesheet includes all nine Codex pet rows:
+
+| Row | State | Frames | Purpose |
+| --- | --- | ---: | --- |
+| 0 | `idle` | 6 | Calm breathing and blinking loop |
+| 1 | `running-right` | 8 | Rightward drag movement |
+| 2 | `running-left` | 8 | Leftward drag movement |
+| 3 | `waving` | 4 | Friendly greeting |
+| 4 | `jumping` | 5 | Playful vertical jump |
+| 5 | `failed` | 8 | Failed or blocked reaction |
+| 6 | `waiting` | 6 | Waiting for user input or approval |
+| 7 | `running` | 6 | Focused active-work state |
+| 8 | `review` | 6 | Reviewing or checking output |
+
+## QA and Validation
+
+The final atlas passed the hatch-pet validation workflow:
 
 - Format: WebP RGBA
-- Size: 1536x1872
-- Transparent RGB residue pixels: 0
+- Size: `1536x1872`
+- Transparent RGB residue pixels: `0`
 - Frame inspection errors: none
 
-## Pet States
+QA artifacts are included for review:
 
-The spritesheet includes all Codex pet rows:
+- `qa/contact-sheet.png` shows every atlas row and frame.
+- `qa/previews/*.gif` provides lightweight motion previews for each state.
+- `qa/validation.json` records atlas validation results.
+- `qa/review.json` records frame inspection results.
 
-1. `idle`
-2. `running-right`
-3. `running-left`
-4. `waving`
-5. `jumping`
-6. `failed`
-7. `waiting`
-8. `running`
-9. `review`
+## Notes
+
+- This repository is intended to be clone-and-install friendly.
+- The final packaged pet requires only `pet.json` and `spritesheet.webp`.
+- QA files are included so users can inspect the asset before installing.
+- Lulu is not affiliated with any brand shown or implied by the original reference image.
